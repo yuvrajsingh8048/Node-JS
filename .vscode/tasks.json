@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "install",
+			"path": "02_Walkthrough-with-Express",
+			"group": "clean",
+			"problemMatcher": [],
+			"label": "npm: install - 02_Walkthrough-with-Express",
+			"detail": "install dependencies from package"
+		}
+	]
+}

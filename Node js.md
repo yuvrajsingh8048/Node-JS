@@ -108,7 +108,7 @@ path.resolve(...path)
 * Node js includes built in module called FS ( File System )
 * allows users to manage files which includes creating, reading, deleting, and performing other operations too.
 
-* ```var fs = require( 'fs' ) ```
+* ``` var fs = require( 'fs' ) ```
 
 ### Notes :
 Synchronous : involves blocking operations that wait for each operations to complete to executing for the next one
@@ -148,3 +148,72 @@ os.release();
 
 # URLs ( Uniform Resource Location )
 * is a reference to a web resource that specifies its location on a computer network
+
+---
+# Framework
+
+- is a software tool that provides devloper with a set of pre written code, components, and libraries
+- often include a set of guideline and best practices that help devloper to write code efficiently
+
+### Different types of Node js framework
+---
+Help software devloper to devlop efficiently and with ease are as follows : 
+* **express.js** ( Fast and unopinionated, minimalist web framework for node js, it main features in two concepts robust routing and middleware function )
+* **Koa.js** ( team behind express, makes lightweight to middleware function and callback )
+* **Nest.js** ( reliable and scable server side application )
+* **Hapi.js** ( reliable, scalable and full out of the box functionality )
+* **Fastify.js** ( fast and low overhead web framework )
+* **Sails.js** ( MVC framework )
+
+---
+# Express
+* installing ``` npm install express ```
+* importing ```const express = require('express)```
+* create an instance of express ```create app = express()```
+* create a route ```app.get()```
+* listen a route ```app.listen()```
+
+### Why do we use Express.js
+* lightweight and unopinionated
+* fast and efficient for building scalable web applications in traffic
+
+* easy to learn due its simplicity and intuitive API
+* modular extensible
+* large and active community
+* routing and middleware support
+
+# PORT
+* logically construct that is used to identify a specific process running on a computer or other network devices
+* associated with a host address such as IP address
+* specific port number are reserved
+
+### Different types of PORT number
+There are 65,535 available port number, which can be classified into three category - 
+* Well-known Port
+* Registered Port
+* Dynamic or Private Port
+
+Note : They are all assigned by Indian Assigned Number Authority
+
+---
+# REST
+* REST stand for Representaion State Transfer
+* architectual used for building distributed system
+followed mainly principles are - 
+1. Client-server architectual
+2. Stateless communication
+3. Resource based interaction
+4. Uniform interfaces
+5. Cacheable
+
+### REST API
+* interface that two computer system use to exchange information over the internet
+* API stand for Application Programming Inteface
+* API is a set of rules that devlopers use to build software that communicate with another system
+
+Note -
+* **Stateful Rest Api** : The server store information about client
+* **Stateless Rest Api** : The server does not store information about client
+
+### How REST API work 
+* work by using HTTP request methods such as 'GET', 'POST', 'PUT', 'DELETE' and some more
